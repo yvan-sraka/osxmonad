@@ -26,7 +26,7 @@ that you must apply to the XMonad source:
     cabal install
 
 **Note**: Mountain Lion users will have to download and install
-[XQuartx](http://xquartz.macosforge.org/landing/).
+[XQuartz](http://xquartz.macosforge.org/landing/).
 
 ## Configuration
 
