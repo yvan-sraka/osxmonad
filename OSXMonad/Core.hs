@@ -180,6 +180,7 @@ osxmonad initxmc = do
       buttonActions = Map.empty
       mouseFocused = False
       mousePosition = Nothing
+      currentEvent = Nothing
 
       layout = C.layoutHook xmc
 
@@ -190,7 +191,7 @@ osxmonad initxmc = do
       numberlockMask = 0
       extensibleState = Map.empty
 
-      conf = C.XConf display xmc theRoot normalBorder focusedBorder (XM.keys xmc xmc) buttonActions mouseFocused mousePosition
+      conf = C.XConf display xmc theRoot normalBorder focusedBorder (XM.keys xmc xmc) buttonActions mouseFocused mousePosition currentEvent
       state = C.XState windowset mapped waitingUnmap dragging numberlockMask extensibleState
 
   hasAPI <- axAPIEnabled
