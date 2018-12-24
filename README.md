@@ -30,6 +30,10 @@ cabal configure
 cabal install
 ```
 
+**Note**: `cabal configure && cabal install` steps could be replaced by
+`stack install` if you prefer or just want to give a try to the
+[Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)!
+
 ## Configuration
 
 Create `~/.xmonad/xmonad.hs`:
