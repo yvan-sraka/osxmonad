@@ -11,6 +11,9 @@ This is a library which allows XMonad to manage Mac OS X windows.
 
 ## Installation
 
+**Note**: users with macOS 10.8 (Mountain Lion) and superior will have to
+download and install [XQuartz](http://xquartz.macosforge.org/landing/).
+
 We need XMonad's compilation step to include the `-framework Cocoa`
 flag to GHC. This repository includes a `xmonad.patch` (1 line diff)
 that you must apply to the XMonad source:
@@ -26,9 +29,6 @@ cd ../osxmonad
 cabal configure
 cabal install
 ```
-
-**Note**: Mountain Lion users will have to download and install
-[XQuartz](http://xquartz.macosforge.org/landing/).
 
 ## Configuration
 
