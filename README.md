@@ -50,6 +50,10 @@ main = osxmonad defaultConfig {
 
 Now we can run `xmonad` to have our windows managed.
 
+## Troubleshooting
+
+* `ld: library not found for -lXss`: https://github.com/xmonad/X11/issues/24
+
 ## License
 
 BSD-3
