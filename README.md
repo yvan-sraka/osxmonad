@@ -19,10 +19,10 @@ flag to GHC. This repository includes a `xmonad.patch` (1 line diff)
 that you must apply to the XMonad source:
 
 ```shell
-git clone git://github.com/pufuwozu/osxmonad.git
-darcs get http://code.haskell.org/xmonad
+git clone https://github.com/yvan-sraka/osxmonad.git
+git clone https://github.com/xmonad/xmonad.git
 cd xmonad
-darcs apply ../osxmonad/xmonad.patch
+git apply ../osxmonad/xmonad.patch
 cabal configure
 cabal install
 cd ../osxmonad
